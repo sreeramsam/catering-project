@@ -244,7 +244,7 @@ export default function HomePage() {
                         </div>
                         <div class="col-md-3">
                             <img class="img-fluid rounded img-width" src={fruitsCurving} alt="logo" />
-                            <h4 class="text-center">Fruits Curving</h4>
+                            <h4 class="text-center">Fruits Carving</h4>
                         </div>
                         <div class="col-md-3">
                             <img class="img-fluid rounded img-width" src={kolam} alt="logo" />
