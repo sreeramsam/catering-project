@@ -1,13 +1,191 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue' 'poppins',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+    width:100% !important;  
+}
+
+html {
+  scroll-behavior: smooth; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    width:114% !important;
+  }
+}
+
+.nav-color{
+  background-color: #040202; 
+  font-size: x-large;
+  font-weight: 500;    
+}
+
+.nav-text-color{
+  color: white;
+}
+.nav-space{
+  margin-right: 4rem;
+}
+#about{
+  background-color: #F4F4F4;    
+}
+#services{
+  background-color: #F4F4F4;  
+}
+.nav-height{
+  height: 6rem;
+}
+#ownerimg { 
+  height: 8rem;
+  width: 20%;
+  margin-top: -13px;
+  overflow: hidden; 
+  margin: 0 auto; 
+  overflow: hidden; 
+} 
+#ownerimg img { 
+  width: 100%; 
+  transition: 2s all ease-in-out;  
+} 
+
+/* #ownerimg:hover img { 
+  transform: scale(1.5); 
+}  */
+p{
+  color: #707070;  
+}
+.geeks { 
+  overflow: hidden; 
+} 
+
+.geeks img { 
+  width: 100%; 
+  -webkit-filter: brightness(55%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+} 
+
+.geeks:hover img { 
+  -webkit-filter: brightness(100%);
+} 
+
+.btn-style{
+  margin-left: 60px;
+}
+
+.footer-bg-color{
+  background-color: #040202; 
+}
+
+#start > p::first-letter{
+  font-size: 2em
+}
+.sreeram {
+  margin-top: 6rem;
+}
+
+.container-scroll{
+  overflow-x: hidden;
+}
+
+.nav-bg-col{
+  background-color: white !important;
+}
+
+.nav-southind-text{
+  color: white;
+  justify-content: center !important;
+  position: relative !important;
+  text-align: center !important;
+  top: 28%;
+}
+
+.southind-menu{
+  background-image: url("assets/home/menu.png");
+  /* width: 100%; */
+  height: 4rem;
+}
+
+.south-justify-content{
+  justify-content: center;
+}
+
+.south-ind-position{
+  left: 15px !important;
+}
+.south-ind-heading-color{
+  color: #707070;
+}
+.south-Indian-align{
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+
+.img-width{
+  width: 100%;
+}
+
+.nav-font-style{
+  font-size:20px;
+  color:#00b300;
+}
+
+.nav-logo-width{
+  width:45%;
+}
+.home-text-indent{
+  text-indent: 50px;
+}
+
+.about-text-indent{
+  text-indent: 30px;
+}
+
+.catering-alt-width{
+   width: 100%;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+  width: 100%;
+}
+
+.footer-color{
+  color: white;
+}
+
+.btn-1 {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 11px 11px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-1:hover {
+  background-color: #507a18;
 }
