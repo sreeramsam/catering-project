@@ -109,13 +109,13 @@ export default function HomePage() {
                             </p>
                             <p class="pl-2">
                                 Sri AANJANEYA Marriage Catering Service is the leading marriage catering services in Chennai and
-                                Tamil Nadu with two decades of experience and having successfully executed many
+                                Tamil Nadu with two decades of experience and has successfully executed many
                                 marriages
-                                and other functions across Tamil Nadu, Sri AANJANEYA Catering have established ourselves as one
+                                and other functions across Tamil Nadu, Sri AANJANEYA Catering have established itself as one
                                 of
                                 the reputed
                                 marriage
-                                caterers in Tamil Nadu. We are committed to make the marriage of your family a cherishing
+                                caterers in Tamil Nadu. We are committed to making the marriage of your family a cherishing
                                 experience.
                             </p>
                             <p class="pl-2">
@@ -168,7 +168,7 @@ export default function HomePage() {
                                         We also undertake catering services for Upanayanams, Sasthiapthapoorthy and
                                         Sathabishekam
                                         functions,
-                                        besides marriages. We also cater to family functions on contract basis and undertake
+                                        besides marriages. We also cater to family functions on a contract basis and undertake
                                         orders
                                         for a
                                         minimum of 50 persons and door delivery the food.
@@ -188,7 +188,7 @@ export default function HomePage() {
                 </section>
                 <section id="menu">
                     <h4 class="pt-2 pl-3"><i class='fa fa-leaf mt-2 mr-2 nav-font-style'></i>Menu</h4>
-                    <div class="row pt-1">
+                    <div class="row pt-1 p-3">
                         <div class="col-md-3 offset-md-2 mb-3">
                             <h4 class="text-center">South Indian Menu</h4>
                             <div class="row">
